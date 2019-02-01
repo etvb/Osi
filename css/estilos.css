@@ -1,0 +1,37 @@
+body{
+	font-size: 16px;
+}
+
+.Contenedor{
+	height: 100vh;
+	background-image: url(../img/back.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Header{
+	align-items: center; /*Alinea vertical*/
+	display: flex;
+	margin:0 30px;
+	padding: 5px;
+	justify-content: space-between; /*Alinea Horizontal*/
+}
+
+.Nav-ul{
+	/*border: 1px solid red;*/
+	display: flex;
+	list-style: none;
+}
+
+.Nav-a{
+	font-size: 30px;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.Info{
+	display: flex;
+	/*border: 1px solid red;*/
+	justify-content: end;
+
+}
