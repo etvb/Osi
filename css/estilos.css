@@ -7,6 +7,7 @@
 	background-image: url(../img/back.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	/*opacity: .5;*/
 
 }
 
@@ -28,6 +29,12 @@
 	justify-content: space-between; /*Alinea Horizontal*/
 }
 
+.Nav{
+	border: 1px solid white;
+	box-shadow: 0 1px 3px black;
+	
+}
+
 .Nav-ul{
 	/*border: 1px solid red;*/
 	display: flex;
@@ -44,17 +51,21 @@
 }
 
 .Info{
+	align-items: center;
 	display: flex;
-	/*border: 1px solid red;*/
 	justify-content: flex-end;
-	padding: 5% 15% 0 0;
+	padding: 1% 15% 0 0;
 	/*height: 70%;*/
 	height: 50%;
+
 	
 }
 
 .Info-cont{
+	border: 1px solid white;
 	text-align: center;
+	box-shadow: 0 1px 3px black;
+	padding: 0 20px 0 20px;
 }
 
 .Info h1{
@@ -67,18 +78,27 @@
 .Info-p p{
 	font-size: 1.2em;
 	text-shadow: 0 1px 1px black;
-
+	/*color: white;*/
 	margin: 1px;
 }
 
 .Info-nl-p{
 	margin-bottom: 0;
 	font-size: 1.9em;
-	font-weight: bolder;;
+	font-weight: bolder;
+
 }
 
 .Form-email{
+	padding: 3px;
 	width: 300px;
+}
+
+.Form-submit{
+	background: #f1b24a;
+	border: 0;
+	box-shadow: 0 1px 3px black;
+	padding: .5em;
 }
 
 .Footer{
@@ -89,7 +109,7 @@
 	justify-content: center;
 	height: 8%;
 	text-shadow: 0 1px 1px black;
-	
+
 
 }
 /*.Footer p{
