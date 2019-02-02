@@ -101,6 +101,7 @@
 	background: #f1b24a;
 	border: 0;
 	box-shadow: 0 1px 3px black;
+	cursor: pointer;
 	padding: .5em;
 }
 
