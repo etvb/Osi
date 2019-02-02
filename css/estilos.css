@@ -1,17 +1,28 @@
-body{
-	font-size: 16px;
-}
 
 .Contenedor{
+	/*display: flex;
+	flex-direction: column;
+	align-items: left;*/
 	height: 100vh;
 	background-image: url(../img/back.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+
+}
+
+/*.Contenedor:nth-child(2){
+	color:red;
+	border: 5px solid blue;
+}*/
+
+.Contenedor-img{
+	width: 28%;
 }
 
 .Header{
-	align-items: center; /*Alinea vertical*/
+	align-items: center;
 	display: flex;
+	height: 20%;
 	margin:0 30px;
 	padding: 5px;
 	justify-content: space-between; /*Alinea Horizontal*/
@@ -27,11 +38,60 @@ body{
 	font-size: 30px;
 	padding: 20px;
 	text-decoration: none;
+	text-shadow: 0 1px 3px black;
+	color: #f1b24a;
+
 }
 
 .Info{
 	display: flex;
 	/*border: 1px solid red;*/
-	justify-content: end;
+	justify-content: flex-end;
+	padding: 5% 15% 0 0;
+	/*height: 70%;*/
+	height: 50%;
+	
+}
+
+.Info-cont{
+	text-align: center;
+}
+
+.Info h1{
+	color: #f1b24a;
+	font-size: 2.5em;
+	margin-bottom: 0;
+	text-shadow: 0 5px 3px black;
+}
+
+.Info-p p{
+	font-size: 1.2em;
+	text-shadow: 0 1px 1px black;
+
+	margin: 1px;
+}
+
+.Info-nl-p{
+	margin-bottom: 0;
+	font-size: 1.9em;
+	font-weight: bolder;;
+}
+
+.Form-email{
+	width: 300px;
+}
+
+.Footer{
+	/*border: 1px solid red;*/
+	/*padding: 15% 0 0 0;*/
+	align-items: flex-end;
+	display: flex;
+	justify-content: center;
+	height: 8%;
+	text-shadow: 0 1px 1px black;
+	
 
 }
+/*.Footer p{
+	align-self: flex-end;
+}*/
