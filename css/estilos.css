@@ -6,11 +6,10 @@
 .Contenedor{
 	display: flex;
 	flex-direction: column;
-	height: 100vh;
 	background-image: url(../img/back.jpg);
 	background-repeat: no-repeat;
+	height: 100vh;
 	background-size: cover;
-
 }
 
 .Contenedor-img{
@@ -117,3 +116,4 @@
 
 
 }
+

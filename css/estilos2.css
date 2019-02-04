@@ -1,0 +1,46 @@
+.Contenedor-bgr{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/back2.jpg);
+	background-size: cover;
+	background-position: center;
+	/*border: 5px solid red;*/
+	opacity: .60;
+	z-index: -1;
+}	
+
+
+.Header{
+	/*border: 1px solid red;*/
+	align-items: center;
+	display: flex;
+	flex: 0 0 25%;
+	/*height: 20%;*/
+	/*margin:0 30px;*/
+	padding: 5px;
+	justify-content: space-between; /*Alinea Horizontal*/
+}
+
+.Nav{
+	border: 1px solid white;
+	box-shadow: 0 1px 3px black;
+
+}
+
+.Nav-ul{
+	/*border: 1px solid red;*/
+	display: flex;
+	list-style: none;
+}
+
+.Nav-a{
+	font-size: 30px;
+	padding: 20px;
+	text-decoration: none;
+	text-shadow: 0 1px 3px black;
+	color: #f1b24a;
+
+}
