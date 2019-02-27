@@ -129,6 +129,10 @@
 	margin: 5px;
 }
 
+.Info2 input{
+	margin: 10px;
+}
+
 .Info-cont{
 	/*background-color: white;*/
 	border: 1px solid white;
