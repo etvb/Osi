@@ -227,16 +227,27 @@ h1{
 
 .Producto-tipo1{
 	display: flex;
-}
+	flex-wrap: wrap;
 
-.Producto-tipo1 img{
-	text-align: top;
-	width: 100%;
 }
 
 .items{
-	border: 1px solid red;
+	overflow: hidden;
 	border-radius: 50%;
-	width: 30px;
+	width: 60px;
+	height: 60px;
+	border: 1px solid red;
 	margin: 2px;
 }
+
+.items img{
+
+	/*text-align: top;*/
+	width: 100%;
+
+}
+
+.items-figcaption{
+	text-align: center;
+	margin: 0 auto ;
+}  
