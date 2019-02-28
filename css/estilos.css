@@ -225,10 +225,18 @@ h1{
 
 /*PRODUCTOS*/
 
+.Productos h2{
+	text-align: center;
+}
+
 .Producto-tipo1{
 	display: flex;
 	flex-wrap: wrap;
 
+}
+
+.Producto-tipo1 figure{
+	margin: 0;
 }
 
 .items{
