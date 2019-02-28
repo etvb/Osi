@@ -222,3 +222,21 @@ h1{
 
 
 }
+
+/*PRODUCTOS*/
+
+.Producto-tipo1{
+	display: flex;
+}
+
+.Producto-tipo1 img{
+	text-align: top;
+	width: 100%;
+}
+
+.items{
+	border: 1px solid red;
+	border-radius: 50%;
+	width: 30px;
+	margin: 2px;
+}
