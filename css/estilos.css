@@ -26,7 +26,7 @@
 	background-size: cover;
 	/*background-position: center;*/
 	/*border: 5px solid red;*/
-	opacity: .60;
+	opacity: .75;
 	z-index: -1;
 }
 
@@ -115,7 +115,7 @@
 }
 
 .titulo3{
-
+	font-size: 20px;
 	text-align: center;
 	color: white;
 	text-shadow: 0 1px 3px black;
@@ -130,7 +130,15 @@
 }
 
 .Info2 input{
-	margin: 10px;
+	/*margin-r: 10px;*/
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+.Form-div2{
+	display: flex;
+	align-items: center;
+
 }
 
 .Info-cont{
@@ -174,6 +182,8 @@
 	box-shadow: 0 1px 3px black;
 	cursor: pointer;
 	padding: .5em;
+	margin-left: 10px;
+
 }
 
 .Footer{
