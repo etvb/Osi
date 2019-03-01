@@ -236,13 +236,21 @@ h1{
 	text-align: center;
 }
 
-.Producto-tipo1{
+.Producto-tipo1, .Producto-tipo2{
 	display: flex;
 	flex-wrap: wrap;
+	/*flex-direction: column;*/
 	justify-content: center;
+	
 }
 
-.Producto-tipo1 figure{
+.Producto-tipo1{
+	width: 60%;
+	margin: auto;
+	
+}
+
+.Producto-tipo1 figure, .Producto-tipo2 figure{
 	margin: 0;
 }
 
