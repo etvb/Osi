@@ -26,6 +26,7 @@
 	background-size: cover;
 	/*background-position: center;*/
 	/*border: 5px solid red;*/
+	filter: blur(2px);
 	opacity: .75;
 	z-index: -1;
 }
@@ -41,7 +42,8 @@
 	background-size: cover;
 	background-position: center;
 	/*border: 5px solid red;*/
-	opacity: .60;
+	filter: blur(2px);
+	opacity: .75;
 	z-index: -1;
 }	
 
@@ -68,7 +70,8 @@
 	/*border: 1px solid red;*/
 	align-items: center;
 	display: flex;
-	flex: 0 0 25%;
+	flex: 0 1 25%;
+	margin-top: 5px;
 	/*height: 20%;*/
 	/*margin:0 30px;*/
 	padding: 5px;
@@ -78,6 +81,7 @@
 .Nav{
 	border: 1px solid white;
 	box-shadow: 0 1px 3px black;
+	flex: 0 1 auto;
 
 }
 
@@ -101,7 +105,7 @@
 	flex: 0 0 50%;
 	align-items: center;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	/*padding: 1% 15% 0 0;*/
 	/*height: 70%;*/
 	/*height: 50%;*/
@@ -148,8 +152,8 @@
 	opacity: .7;
 	padding: 0 20px 0 20px;
 	text-align: center;
-	margin-right: 30px;
-	flex: 0 0 500px;
+	/*margin-right: 30px;*/
+	flex: 0 1 600px;
 }
 
 .Info h1{
@@ -160,8 +164,8 @@
 }
 
 .Info-p{
-	font-size: 1.5em;
-	font-weight: bold;
+	font-size: 1.7em;
+	font-weight: bolder;
 	
 }
 
@@ -202,7 +206,7 @@
 	justify-content: center;
 	flex: 0 0 25%;
 	/*height: 8%;*/
-	text-shadow: 0 1px 1px black;
+	/*text-shadow: 0 1px 1px black;*/
 
 
 }
@@ -219,9 +223,15 @@ h1{
 	text-shadow: 0 5px 3px black;
 	text-align: center;
 }
+
+.Info section{
+	flex: 0 0 80%;
+}
 .parrafo{
-	margin: 5% 0 2% 15%;
+	font-size: 1.2em;
+	/*margin: 5% 0 2% 15%;*/
 	/*padding: 0;*/
+	
 }
 
 .parrafo h2{
@@ -234,6 +244,16 @@ h1{
 }
 
 /*PRODUCTOS*/
+
+
+.Produc{
+	display: flex;
+	color: red;
+	flex-direction: column;
+	align-items: center;
+}
+
+
 
 .Productos{
 	width: 80%;
