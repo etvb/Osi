@@ -209,7 +209,14 @@
 	/*flex: 0 0 25%;*/
 	height: 200px;
 	/*text-shadow: 0 1px 1px black;*/
+}
 
+
+@media(max-width: 800px){
+	.Nav-a{
+		font-size: 21px;
+		padding: 5px;
+	}
 
 }
 
