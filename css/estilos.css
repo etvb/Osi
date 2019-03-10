@@ -227,6 +227,11 @@
 		padding: 0;
 	}
 
+	.Nav-a{
+		font-size: 21px;
+		padding: 5px;
+	}
+
 	.Info{
 		flex-direction: column;
 		flex: 0 0 75%;
@@ -260,9 +265,6 @@
 		/*flex-direction: row;*/
 	}
 
-	.Nav-a{
-		padding: 10px;
-	}
 }
 
 
