@@ -8,7 +8,7 @@
 	flex-direction: column;
 	/*background-image: url(../img/back.jpg);*/
 	/*background-repeat: no-repeat;*/
-	height: 100vh;
+	height: 100%;
 	background-size: cover;
 }
 
@@ -30,6 +30,8 @@
 	opacity: .75;
 	z-index: -1;
 }
+
+
 
 /*NOSOTROS*/
 .Contenedor-bgr2{
@@ -70,7 +72,7 @@
 	/*border: 1px solid red;*/
 	align-items: center;
 	display: flex;
-	flex: 0 1 25%;
+	/*flex: 0 1 25%;*/
 	margin-top: 5px;
 	/*height: 20%;*/
 	/*margin:0 30px;*/
@@ -102,7 +104,7 @@
 
 .Info{
 	/*border:1px solid red;*/
-	flex: 0 0 50%;
+	/*flex: 0 0 50%;*/
 	align-items: center;
 	display: flex;
 	justify-content: space-around;
@@ -204,11 +206,63 @@
 	align-items: flex-end;
 	display: flex;
 	justify-content: center;
-	flex: 0 0 25%;
-	/*height: 8%;*/
+	/*flex: 0 0 25%;*/
+	height: 200px;
 	/*text-shadow: 0 1px 1px black;*/
 
 
+}
+
+@media(max-width: 600px){
+	
+	body{
+		font-size: 14px;
+	}
+
+	.Header{
+		flex: 0 0 20%;
+	}
+
+	.Nav-ul{
+		padding: 0;
+	}
+
+	.Info{
+		flex-direction: column;
+		flex: 0 0 75%;
+	}
+
+	.Info-cont{
+		margin: 20px;
+		/*padding: 0 10px 0 10px;*/
+		flex: none;
+		padding: 0 10px 0 10px;
+	}
+
+	.Info-p{
+		margin: 10px;
+
+		/*padding: 10px 0 10px 0;*/
+	}
+
+
+	.Contenedor-img{
+		display: none;
+	}
+
+	.Footer{
+		display: none;
+	}
+
+	.Contenedor{
+		margin: ;
+		align-items: center;
+		/*flex-direction: row;*/
+	}
+
+	.Nav-a{
+		padding: 10px;
+	}
 }
 
 
@@ -239,7 +293,6 @@ h1{
 	font-size: 2em;
 	font-weight: bolder;
 	text-shadow: 0 .5px 3px black;
-
 
 }
 
